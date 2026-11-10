@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website, resume and bio-data of Rehan M Ansari.">
+    <title>Rehan M Ansari | Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <p class="eyebrow">PERSONAL PORTFOLIO</p>
+            <h1>Rehan M Ansari</h1>
+            <p class="header-subtitle">Computer Science & Engineering Student</p>
+        </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="biodata.html">Bio-data</a>
+    </nav>
+
+    <main>
+        <section class="home-card">
+            <div class="profile-placeholder" aria-label="Profile photo placeholder">
+                <span>R</span>
+            </div>
+            <div class="home-copy">
+                <p class="eyebrow">HELLO, WELCOME</p>
+                <h2>I'm <span>Rehan M Ansari</span></h2>
+                <p class="lead">B.E. Computer Science and Engineering student at Jain College of Engineering and Technology, with an expected graduation year of 2028.</p>
+                <p>I am a Computer Science and Engineering student interested in programming, web development and exploring new technologies. I enjoy learning new skills and building practical projects.</p>
+                <div class="button-row">
+                    <a class="button-link" href="resume.html">View my resume</a>
+                    <a class="button-link button-outline" href="biodata.html">View bio-data</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-grid">
+            <article class="info-tile">
+                <span class="tile-number">01</span>
+                <h3>Education</h3>
+                <p>B.E. in Computer Science and Engineering</p>
+            </article>
+            <article class="info-tile">
+                <span class="tile-number">02</span>
+                <h3>Institution</h3>
+                <p>Jain College of Engineering and Technology</p>
+            </article>
+            <article class="info-tile">
+                <span class="tile-number">03</span>
+                <h3>Graduation</h3>
+                <p>Expected in 2028</p>
+            </article>
+        </section>
+
+        <section class="welcome-panel">
+            <div>
+                <p class="eyebrow">EXPLORE</p>
+                <h2>Learn more about me</h2>
+                <p>Visit the Resume page for academic and professional details, or the Bio-data page for personal information.</p>
+            </div>
+            <button type="button" onclick="welcomeMessage()">Say hello</button>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="currentYear">2026</span> Rehan M Ansari. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
